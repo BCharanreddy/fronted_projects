@@ -3,7 +3,7 @@ num=Math.floor(Math.random()*100);
 let gameover=false;
 let tog=true;
 function game(){
-    document.getElementById("value").innerHTML=num;
+    
     if(gameover) return;
    
     let player=0;
